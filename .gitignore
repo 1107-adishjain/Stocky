@@ -1,0 +1,19 @@
+# Ignore sensitive environment files containing credentials
+.env
+
+# Ignore compiled binaries and build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/stocky # The binary created by 'go build'
+
+# Ignore IDE and editor-specific files
+.idea/
+.vscode/
+*.DS_Store
+
+# Ignore system files
+Thumbs.db
+Desktop.ini
