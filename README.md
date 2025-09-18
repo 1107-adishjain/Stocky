@@ -56,5 +56,6 @@ This will download all the necessary libraries defined in the `go.mod` file.
 
 ### 5. Run the Application
 You are now ready to start the server. From the project root, run:
+go run cmd/stocky/main.go
 
-The server will start, and you'll see a message indicating it's listening on port `8080`. Your API is now live and ready to accept requests. You can view the automatically generated API documentation by navigating to `http://localhost:8080/docs` in your browser.
+The server will start, and you'll see a message indicating it's listening on port `8080`. Your API is now live and ready to accept requests. You can test the endpoints using `curl` or a tool like Postman.
